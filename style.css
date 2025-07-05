@@ -144,11 +144,6 @@
             padding: 0 20px;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
 
         header {
             position: fixed;
@@ -165,6 +160,12 @@
             justify-content: space-between;
             align-items: center;
             padding: 1rem 2rem;
+        }
+
+        .logo {
+          font-weight: 600;
+          font-size: 18px;
+          font-family: "Libertinus Mono", monospace;
         }
 
         .nav-links {
