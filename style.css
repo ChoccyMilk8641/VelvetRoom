@@ -162,10 +162,20 @@
             padding: 1rem 2rem;
         }
 
+        .logo-box {
+            border: 2px transparent;
+            border-radius: 100px;
+            padding: 14px;
+            background-color: #00103d;
+        }
+
         .logo {
           font-weight: 600;
           font-size: 18px;
           font-family: "Libertinus Mono", monospace;
+          background: linear-gradient(90deg, #360cd1, #003cff);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .nav-links {
