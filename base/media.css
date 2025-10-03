@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+        .main-page h1 {
+            text-align: center;
+        }
+
+        .main-page p {
+            text-align: center;
+            
+        }
+
+        .nav-links {
+        display: none;
+    }
+
+    .login-btn {
+        position: relative;
+        left: 150px;
+        visibility: hidden;
+    }
+
+        .btn-primary {
+
+          position:absolute;
+          left:20%;
+          text-align: center;
+
+        }
+
+        .btn-secondary {
+          position:absolute;
+          left:50%;
+          text-align: center;
+
+        }
+
+        .logo-box {
+            border: 2px transparent;
+            border-radius: 100px;
+            padding: 14px;
+            background-color: #00103d;
+        }
+
+        .logo {
+          font-weight: 600;
+          font-size: 18px;
+          font-family: "Libertinus Mono", monospace;
+          background: linear-gradient(90deg, #360cd1, #003cff);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+
+            .dropdown-toggle {
+        display: block;
+    }
+  }

@@ -1,0 +1,39 @@
+body {
+               background: linear-gradient(135deg, #00103d 0%, #00195e 50%, #360cd1 100%);
+            color: white;
+            overflow-x: hidden;
+}
+
+
+.main-page {
+            height: 100vh;
+            display: grid;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .main-content {
+            z-index: 2;
+            max-width: 600px;
+            animation: slideInLeft 1s ease-out;
+        }
+
+        .main-page h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            background: linear-gradient(90deg, #360cd1, #003cff);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-family: "Libertinus Mono", monospace;
+        }
+
+        .main-page p {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            margin-bottom: 3rem;
+            color: rgba(255, 255, 255, 0.8);
+            
+        }

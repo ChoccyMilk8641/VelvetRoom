@@ -1,0 +1,18 @@
+:root {
+
+  --foreground: #0f172a;
+  --primary: #151da6;
+  --primary-light: #243c84;
+  --primary-dark: #15155b;
+  --primary-alt: #28258d;
+  --primary-alt-light: #272e7d;
+  --muted: #f1f5f9;
+
+  
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+  --shadow-md: 0 8px 16px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 16px 24px rgba(15, 23, 42, 0.12), 0 4px 8px rgba(15, 23, 42, 0.05);
+  --shadow-inner: inset 0 2px 4px rgba(15, 23, 42, 0.05);
+
+}

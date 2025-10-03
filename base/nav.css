@@ -1,0 +1,41 @@
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .logo-box {
+            border: 2px transparent;
+            border-radius: 100px;
+            padding: 14px;
+            background-color: #00103d;
+        }
+
+        .logo {
+          font-weight: 600;
+          font-size: 18px;
+          font-family: "Libertinus Mono", monospace;
+          background: linear-gradient(90deg, #360cd1, #003cff);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            font-size: 17px;
+            transform: translateY(-2px);
+        }

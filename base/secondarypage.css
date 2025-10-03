@@ -1,0 +1,47 @@
+   .secondary-page {
+            background: linear-gradient(135deg, #00103d 0%, #00195e 50%, #1c0866 100%);
+            padding: 50px 0;
+        }
+
+        .secondary-page h1 {
+            font-size: 1.5rem;
+            line-height: 1.6;
+            margin-bottom: 5px;
+            margin-left: 20px;
+
+        }
+
+        .secondary-page p {
+            margin-bottom: 1rem;
+            margin-left: 30px;
+        }
+
+        .stat-page {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 80px 0;
+            background: linear-gradient(135deg, #00103d49 0%, #00195e8e 50%, #1c086625 100%);
+            z-index: -1;
+        }
+
+        .stat-item{
+            text-align: center;
+            border: 3px transparent #2f00ff36;
+            border-radius: 10px;
+            padding: 30px;
+            background: linear-gradient(360deg, #00103d 0%, #00195e 50%, #360cd1 100%);
+            backdrop-filter: var(--glass-blur);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+
+        }
+
+        .stat-text {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+        }

@@ -1,0 +1,124 @@
+       .bubbles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .bubble {
+            position:fixed;
+            bottom: -50px;
+            background: radial-gradient(circle, rgba(47, 43, 255, 0.1) 0%, rgba(47, 0, 255, 0.137) 70%);
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: float-up linear infinite;
+        }
+
+        .bubble:nth-child(1) {
+            left: 10%;
+            width: 20px;
+            height: 20px;
+            animation-duration: 8s;
+            animation-delay: 0s;
+        }
+
+        .bubble:nth-child(2) {
+            left: 20%;
+            width: 30px;
+            height: 30px;
+            animation-duration: 10s;
+            animation-delay: 2s;
+        }
+
+        .bubble:nth-child(3) {
+            left: 35%;
+            width: 15px;
+            height: 15px;
+            animation-duration: 7s;
+            animation-delay: 4s;
+        }
+
+        .bubble:nth-child(4) {
+            left: 50%;
+            width: 40px;
+            height: 40px;
+            animation-duration: 12s;
+            animation-delay: 0s;
+        }
+
+        .bubble:nth-child(5) {
+            left: 65%;
+            width: 25px;
+            height: 25px;
+            animation-duration: 9s;
+            animation-delay: 3s;
+        }
+
+        .bubble:nth-child(6) {
+            left: 80%;
+            width: 35px;
+            height: 35px;
+            animation-duration: 11s;
+            animation-delay: 1s;
+        }
+
+        .bubble:nth-child(7) {
+            left: 5%;
+            width: 18px;
+            height: 18px;
+            animation-duration: 6s;
+            animation-delay: 5s;
+        }
+
+        .bubble:nth-child(8) {
+            left: 90%;
+            width: 22px;
+            height: 22px;
+            animation-duration: 8s;
+            animation-delay: 2s;
+        }
+
+        .bubble:nth-child(9) {
+            left: 25%;
+            width: 28px;
+            height: 28px;
+            animation-duration: 10s;
+            animation-delay: 4s;
+        }
+
+        .bubble:nth-child(10) {
+            left: 75%;
+            width: 32px;
+            height: 32px;
+            animation-duration: 9s;
+            animation-delay: 1s;
+        }
+
+               @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        
+        @keyframes float-up {
+            from {
+                transform: translateY(0) rotate(0deg);
+                opacity: 0.6;
+            }
+            50% {
+                opacity: 0.8;
+            }
+            to {
+                transform: translateY(-100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
